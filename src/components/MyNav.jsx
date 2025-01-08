@@ -8,7 +8,7 @@ const MyNav = function () {
     data-bs-theme="dark"
   >
     <Container fluid>
-      <Navbar.Brand href="#">EPIBOOKS</Navbar.Brand>
+      <Navbar.Brand className='fw-bold' href="#">EPIBOOKS</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
